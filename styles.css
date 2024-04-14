@@ -32,16 +32,15 @@ header h1 {
     border-radius: 5px;
     margin-top: 20px;
     display: inline-block;
-    font-size: 20px;
-    animation: blink 1s infinite alternate; /* Haciendo que el botón parpadee */
+    animation: pulse 1s infinite alternate; /* Hace que el botón parpadee */
 }
 
-@keyframes blink {
-    from {
-        background-color: #ffffff;
+@keyframes pulse {
+    0% {
+        transform: scale(1);
     }
-    to {
-        background-color: #ff9900;
+    100% {
+        transform: scale(1.2);
     }
 }
 
@@ -69,14 +68,14 @@ header h1 {
 
 .big-popup {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     display: inline-block;
 }
 
 .contract-address {
-    font-size: 24px;
+    font-size: 18px; /* Reduciendo el tamaño del texto de la dirección del contrato */
     margin: 0;
 }
 
@@ -84,11 +83,7 @@ header h1 {
     color: #0D0D0D;
     text-decoration: underline;
     display: block;
-    margin-top: 20px;
-}
-
-.verify-contract:hover {
-    color: #ff9900;
+    margin-top: 10px; /* Reduciendo el margen superior */
 }
 
 footer {
@@ -117,11 +112,11 @@ footer p {
     }
 
     .swap-button {
-        padding: 60px 120px; /* Aumentado el tamaño del botón en móvil */
+        padding: 40px 80px; /* Aumentado el tamaño del botón en móvil */
     }
 
     .big-popup {
-        padding: 10px; /* Reduciendo el padding del contenedor de dirección y contrato */
+        padding: 5px; /* Reduciendo el padding del contenedor de dirección y contrato */
     }
 }
 
