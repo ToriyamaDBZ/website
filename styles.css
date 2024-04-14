@@ -56,14 +56,12 @@ header h1 {
     padding: 50px 10px; /* Modificado para dispositivos móviles */
 }
 
-.small-popup {
+.big-popup {
     background-color: #ffffff;
-    padding: 20px; /* Modificado para dispositivos móviles */
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     display: inline-block;
-    max-width: calc(100% - 20px); /* Ajustado para dispositivos móviles */
-    overflow: hidden;
 }
 
 .contract-address {
