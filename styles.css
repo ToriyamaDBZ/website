@@ -109,6 +109,10 @@ footer p {
     .swap-button {
         padding: 12px 24px; /* Adjusted padding for smaller button */
     }
+
+    .contract-address {
+        font-size: 16px; /* Adjusted font size for better mobile compatibility */
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -125,7 +129,7 @@ footer p {
     }
 
     .contract-address {
-        font-size: 16px; /* Adjusted font size for better mobile compatibility */
+        font-size: 14px; /* Adjusted font size for better mobile compatibility */
     }
 }
 
