@@ -47,7 +47,7 @@ header h1 {
     font-size: 36px;
 }
 
-#about, #features, #team, #dextools-widget-container {
+#about, #features, #team {
     padding: 50px 0;
 }
 
@@ -115,12 +115,12 @@ footer p {
     }
 
     #dextools-widget {
-        width: 100%; /* Widget width to 100% for better responsiveness */
+        width: 90%; /* Widget width to 90% for better responsiveness */
     }
 
     .dextools-widget-container {
         text-align: center;
-        margin-top: 20px;
+        margin-top: 20px; /* Adjusted margin-top for better spacing */
     }
 }
 
