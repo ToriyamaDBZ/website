@@ -27,11 +27,12 @@ header h1 {
 .swap-button {
     background-color: #ffffff;
     color: #000000;
-    padding: 10px 20px;
+    padding: 15px 30px; /* Increased padding for larger button */
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px; /* Increased border radius for rounded corners */
     margin-top: 20px;
     display: inline-block;
+    font-size: 18px; /* Increased font size for better readability */
 }
 
 #hero {
@@ -58,7 +59,7 @@ header h1 {
 
 .big-popup {
     background-color: #ffffff;
-    padding: 15px;
+    padding: 15px; /* Reduced padding for smaller pop-up */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     display: inline-block;
@@ -106,7 +107,7 @@ footer p {
     }
 
     .swap-button {
-        padding: 8px 16px;
+        padding: 12px 24px; /* Adjusted padding for smaller button */
     }
 }
 
@@ -120,11 +121,11 @@ footer p {
     }
 
     .big-popup {
-        padding: 10px; /* Adjusted padding for better mobile compatibility */
+        padding: 10px; /* Reduced padding for smaller pop-up */
     }
 
     .contract-address {
-        font-size: 14px; /* Adjusted font size for better mobile compatibility */
+        font-size: 16px; /* Adjusted font size for better mobile compatibility */
     }
 }
 
