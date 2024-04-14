@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f2f2f2;
 }
 
 .container {
@@ -47,7 +48,7 @@ header h1 {
     font-size: 36px;
 }
 
-#about, #features, #team, #dextools-widget {
+#about, #features, #team {
     padding: 50px 0;
 }
 
