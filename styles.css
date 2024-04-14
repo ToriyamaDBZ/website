@@ -47,7 +47,7 @@ header h1 {
     font-size: 36px;
 }
 
-#about, #features, #team {
+#about, #features, #team, #widgets {
     padding: 50px 0;
 }
 
@@ -81,6 +81,11 @@ header h1 {
     color: #ff9900;
 }
 
+.widget {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 footer {
     background-color: #0D0D0D;
     color: #ffffff;
@@ -92,8 +97,8 @@ footer p {
     margin: 0;
 }
 
-/* Estilos para dispositivos móviles y escritorio */
-@media (max-width: 768px) {
+/* Estilos para tablet y móvil */
+@media only screen and (max-width: 768px) {
     .container {
         width: 90%;
     }
@@ -113,12 +118,28 @@ footer p {
     .contract-address {
         font-size: 16px; /* Adjusted font size for better mobile compatibility */
     }
+}
 
-    /* Estilos para el widget en dispositivos móviles */
-    #dextswap-widget iframe {
-        width: 100vw; /* Ocupa todo el ancho de la pantalla */
-        height: 100vh; /* Ocupa toda la altura de la pantalla */
-        border: none;
-        overflow: hidden; /* Oculta la barra de desplazamiento */
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    #hero h2 {
+        font-size: 24px;
+    }
+
+    .big-popup {
+        padding: 10px; /* Reduced padding for smaller pop-up */
+    }
+
+    .contract-address {
+        font-size: 14px; /* Adjusted font size for better mobile compatibility */
+    }
+
+    #widgets {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
