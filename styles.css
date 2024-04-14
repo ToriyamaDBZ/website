@@ -53,7 +53,7 @@ header h1 {
 #contract-address {
     background-color: #ff9900;
     text-align: center;
-    padding: 50px 10px; /* Modificado para dispositivos móviles */
+    padding: 50px 0;
 }
 
 .big-popup {
@@ -65,17 +65,15 @@ header h1 {
 }
 
 .contract-address {
-    font-size: 18px; /* Modificado para dispositivos móviles */
+    font-size: 18px; /* Tamaño reducido para dispositivos móviles */
     margin: 0;
-    word-wrap: break-word;
 }
 
 .verify-contract {
     color: #0D0D0D;
     text-decoration: underline;
     display: block;
-    margin-top: 10px; /* Modificado para dispositivos móviles */
-    word-wrap: break-word;
+    margin-top: 10px; /* Espaciado reducido para dispositivos móviles */
 }
 
 .verify-contract:hover {
