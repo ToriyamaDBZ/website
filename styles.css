@@ -118,5 +118,13 @@ footer p {
     #hero h2 {
         font-size: 24px;
     }
+
+    .big-popup {
+        padding: 10px; /* Adjusted padding for better mobile compatibility */
+    }
+
+    .contract-address {
+        font-size: 14px; /* Adjusted font size for better mobile compatibility */
+    }
 }
 
