@@ -37,7 +37,7 @@ header h1 {
 #hero {
     background-color: #ff9900;
     color: #0D0D0D;
-    padding: 100px 0;
+    padding: 80px 0; /* Adjusted padding for better mobile compatibility */
     text-align: center;
 }
 
@@ -58,7 +58,7 @@ header h1 {
 
 .big-popup {
     background-color: #ffffff;
-    padding: 15px; /* Adjusted padding for better mobile compatibility */
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     display: inline-block;
