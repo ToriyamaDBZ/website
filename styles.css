@@ -27,12 +27,22 @@ header h1 {
 .swap-button {
     background-color: #ffffff;
     color: #000000;
-    padding: 80px 160px; /* Aumentado el tamaño del botón */
+    padding: 20px 40px;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top: 20px;
     display: inline-block;
-    font-size: 32px; /* Aumentado el tamaño del texto */
+    font-size: 20px;
+    animation: blink 1s infinite alternate; /* Haciendo que el botón parpadee */
+}
+
+@keyframes blink {
+    from {
+        background-color: #ffffff;
+    }
+    to {
+        background-color: #ff9900;
+    }
 }
 
 #hero {
@@ -109,15 +119,9 @@ footer p {
     .swap-button {
         padding: 60px 120px; /* Aumentado el tamaño del botón en móvil */
     }
-}
 
-@media only screen and (max-width: 480px) {
-    header h1 {
-        font-size: 18px;
-    }
-
-    #hero h2 {
-        font-size: 24px;
+    .big-popup {
+        padding: 10px; /* Reduciendo el padding del contenedor de dirección y contrato */
     }
 }
 
