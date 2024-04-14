@@ -27,21 +27,11 @@ header h1 {
 .swap-button {
     background-color: #ffffff;
     color: #000000;
-    padding: 20px 40px;
+    padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
     display: inline-block;
-    animation: pulse 1s infinite alternate; /* Hace que el botón parpadee */
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.2);
-    }
 }
 
 #hero {
@@ -63,19 +53,19 @@ header h1 {
 #contract-address {
     background-color: #ff9900;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px 0; /* Adjusted padding for better mobile compatibility */
 }
 
 .big-popup {
     background-color: #ffffff;
-    padding: 10px;
+    padding: 15px; /* Adjusted padding for better mobile compatibility */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     display: inline-block;
 }
 
 .contract-address {
-    font-size: 18px; /* Reduciendo el tamaño del texto de la dirección del contrato */
+    font-size: 18px; /* Adjusted font size for better mobile compatibility */
     margin: 0;
 }
 
@@ -83,7 +73,11 @@ header h1 {
     color: #0D0D0D;
     text-decoration: underline;
     display: block;
-    margin-top: 10px; /* Reduciendo el margen superior */
+    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
+}
+
+.verify-contract:hover {
+    color: #ff9900;
 }
 
 footer {
@@ -112,11 +106,25 @@ footer p {
     }
 
     .swap-button {
-        padding: 40px 80px; /* Aumentado el tamaño del botón en móvil */
+        padding: 8px 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    #hero h2 {
+        font-size: 24px;
     }
 
     .big-popup {
-        padding: 5px; /* Reduciendo el padding del contenedor de dirección y contrato */
+        padding: 10px; /* Adjusted padding for better mobile compatibility */
+    }
+
+    .contract-address {
+        font-size: 14px; /* Adjusted font size for better mobile compatibility */
     }
 }
 
