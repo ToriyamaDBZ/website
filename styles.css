@@ -1,69 +1,134 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TORIYAMA (DBZ) - The Ultimate Cryptocurrency</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <div class="container">
-            <h1>TORIYAMA (DBZ)</h1>
-        </div>
-    </header>
-    <section id="contract-address">
-        <div class="container">
-            <div class="big-popup">
-                <p class="contract-address">0x9c39aF2AFfc4c42d432CF21A57D80B0ac22E42f1</p>
-                <a href="https://bscscan.com/address/0x9c39aF2AFfc4c42d432CF21A57D80B0ac22E42f1#code" class="verify-contract">CONTRACT VERIFIED!</a>
-            </div>
-        </div>
-    </section>
-    <section id="hero">
-        <div class="container">
-            <h2>The Ultimate Cryptocurrency</h2>
-            <p>Inspired by Akira Toriyama and Dragon Ball Z</p>
-            <a href="https://pancakeswap.finance/swap?inputCurrency=0x9c39aF2AFfc4c42d432CF21A57D80B0ac22E42f1&outputCurrency=BNB" class="swap-button">SWAP</a>
-        </div>
-    </section>
-    <section id="about">
-        <div class="container">
-            <h2>About TORIYAMA (DBZ)</h2>
-            <p>TORIYAMA is a cryptocurrency designed for true Dragon Ball Z fans. Inspired by the legendary creator of the series, Akira Toriyama, and the iconic anime saga. TORIYAMA aims to capture the essence of the Dragon Ball Z universe and create a virtual space, based on blockchain technology, where people can interact with each other.</p>
-            <p>A digital world inspired by places and characters from Dragon Ball Z, where users can interact, trade digital assets based on cryptocurrencies, participate in games or competitions, and many more activities.</p>
-            <p>One of the most anticipated events by the TORIYAMA community would be Akira Toriyama's anniversary, celebrated every March 1st, with a token burn in his honor, where the entire community can participate.</p>
-        </div>
-    </section>
-    <section id="features">
-        <div class="container">
-            <h2>Key Features</h2>
-            <ul>
-                <li>Based on blockchain technology</li>
-                <li>Secure and transparent</li>
-                <li>Active community of Dragon Ball Z fans</li>
-                <li>Fast and scalable</li>
-            </ul>
-        </div>
-    </section>
-    <section id="dextools-widget">
-        <div class="container">
-            <iframe id="dextools-widget"
-                title="DEXTools Trading Chart"
-                width="100%" height="300"
-                src="https://www.dextools.io/widget-chart/es/bnb/pe-light/0x87ae8104d92f0846868fed5593f26bf705d105c1?theme=dark&chartType=2&chartResolution=30&drawingToolbars=false"></iframe>
-        </div>
-    </section>
-    <section id="team">
-        <div class="container">
-            <h2>Our Team</h2>
-            <p>Formed by cryptography experts and passionate about Dragon Ball Z. We are committed to the mission of bringing TORIYAMA to success and realizing the potential of the digital universe that will forever pay tribute to Akira's figure. <a href="mailto:toriyamaDBZ@hotmail.com">Contact us!</a></p>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 TORIYAMA (DBZ) - The Ultimate Cryptocurrency</p>
-        </div>
-    </footer>
-</body>
-</html>
+/* Estilos CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0D0D0D;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.swap-button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px 30px; /* Increased padding for larger button */
+    text-decoration: none;
+    border-radius: 10px; /* Increased border radius for rounded corners */
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 18px; /* Increased font size for better readability */
+}
+
+#hero {
+    background-color: #ff9900;
+    color: #0D0D0D;
+    padding: 80px 0; /* Adjusted padding for better mobile compatibility */
+    text-align: center;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 36px;
+}
+
+#about, #features, #team, #dextools-widget {
+    padding: 50px 0;
+}
+
+#contract-address {
+    background-color: #ff9900;
+    text-align: center;
+    padding: 20px 0; /* Adjusted padding for better mobile compatibility */
+}
+
+.big-popup {
+    background-color: #ffffff;
+    padding: 15px; /* Reduced padding for smaller pop-up */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.contract-address {
+    font-size: 18px; /* Adjusted font size for better mobile compatibility */
+    margin: 0;
+}
+
+.verify-contract {
+    color: #0D0D0D;
+    text-decoration: underline;
+    display: block;
+    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
+}
+
+.verify-contract:hover {
+    color: #ff9900;
+}
+
+footer {
+    background-color: #0D0D0D;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilos para tablet y móvil */
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    #hero h2 {
+        font-size: 28px;
+    }
+
+    .swap-button {
+        padding: 12px 24px; /* Adjusted padding for smaller button */
+    }
+
+    .contract-address {
+        font-size: 16px; /* Adjusted font size for better mobile compatibility */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+
+    #hero h2 {
+        font-size: 24px;
+    }
+
+    .big-popup {
+        padding: 10px; /* Reduced padding for smaller pop-up */
+    }
+
+    .contract-address {
+        font-size: 14px; /* Adjusted font size for better mobile compatibility */
+    }
+}
