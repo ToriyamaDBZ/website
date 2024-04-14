@@ -53,7 +53,7 @@ header h1 {
 #contract-address {
     background-color: #ff9900;
     text-align: center;
-    padding: 30px 0; /* Adjusted padding for better mobile compatibility */
+    padding: 20px 0; /* Adjusted padding for better mobile compatibility */
 }
 
 .big-popup {
