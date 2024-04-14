@@ -25,14 +25,41 @@ header h1 {
 }
 
 .swap-button {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 15px 30px; /* Increased padding for larger button */
+    background: linear-gradient(135deg, #ff5733, #ffd700); /* Degradado de naranja a dorado */
+    color: #ffffff;
+    padding: 15px 30px; /* Padding incrementado para un botón más grande */
     text-decoration: none;
-    border-radius: 10px; /* Increased border radius for rounded corners */
+    border-radius: 50px; /* Borde redondeado */
     margin-top: 20px;
     display: inline-block;
-    font-size: 18px; /* Increased font size for better readability */
+    font-size: 18px; /* Tamaño de fuente incrementado */
+    border: 2px solid #000; /* Borde sólido de color negro */
+    transition: all 0.2s ease-in-out; /* Transición suave */
+    position: relative;
+    overflow: hidden;
+}
+
+.swap-button:hover {
+    background: linear-gradient(135deg, #00ff00, #00ffff); /* Degradado de verde a verde claro */
+}
+
+.swap-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.2)); /* Efecto de profundidad */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+    border-radius: 50px; /* Borde redondeado */
+}
+
+.swap-button:hover::before {
+    transform: scaleX(1);
+    transform-origin: right;
 }
 
 #hero {
