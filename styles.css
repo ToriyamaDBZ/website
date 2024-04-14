@@ -37,7 +37,7 @@ header h1 {
 #hero {
     background-color: #ff9900;
     color: #0D0D0D;
-    padding: 100px 0;
+    padding: 80px 0; /* Adjusted padding for better mobile compatibility */
     text-align: center;
 }
 
@@ -53,19 +53,19 @@ header h1 {
 #contract-address {
     background-color: #ff9900;
     text-align: center;
-    padding: 30px 0; /* Reducido el relleno para dispositivos móviles */
+    padding: 30px 0; /* Adjusted padding for better mobile compatibility */
 }
 
 .big-popup {
     background-color: #ffffff;
-    padding: 15px; /* Reducido el relleno para dispositivos móviles */
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     display: inline-block;
 }
 
 .contract-address {
-    font-size: 18px; /* Tamaño reducido para dispositivos móviles */
+    font-size: 18px; /* Adjusted font size for better mobile compatibility */
     margin: 0;
 }
 
@@ -73,7 +73,7 @@ header h1 {
     color: #0D0D0D;
     text-decoration: underline;
     display: block;
-    margin-top: 10px; /* Espaciado reducido para dispositivos móviles */
+    margin-top: 10px; /* Adjusted margin for better mobile compatibility */
 }
 
 .verify-contract:hover {
