@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TORIYAMA (DBZ) - La Criptomoneda Definitiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>TORIYAMA (DBZ)</h1>
+        </div>
+    </header>
+    <section id="contract-address">
+        <div class="container">
+            <div class="big-popup">
+                <p class="contract-address">0x9c39aF2AFfc4c42d432CF21A57D80B0ac22E42f1</p>
+                <a href="https://bscscan.com/address/0x9c39aF2AFfc4c42d432CF21A57D80B0ac22E42f1#code" class="verify-contract">¡CONTRATO VERIFICADO!</a>
+            </div>
+        </div>
+    </section>
+    <header>
+        <div class="container">
+            <a href="https://pancakeswap.finance/swap?inputCurrency=0x9c39aF2AFfc4c42d432CF21A57D80B0ac22E42f1&outputCurrency=BNB" class="swap-button">SWAP</a>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container">
+            <h2>La Criptomoneda Definitiva</h2>
+            <p>Inspirada en Akira Toriyama y Dragon Ball Z</p>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container">
+            <h2>Acerca de TORIYAMA (DBZ)</h2>
+            <p>TORIYAMA es una criptomoneda diseñada para los verdaderos fanáticos de Dragon Ball Z. Inspirada en el legendario creador de la serie, Akira Toriyama, y en la icónica saga de anime. TORIYAMA pretende capturar la esencia del universo de Dragon Ball Z y crear un espacio virtual, basado en la tecnología blockchain, en el que las personas puedan interactuar entre ellas.</p>
+            <p>Un mundo digital inspirado en lugares y personajes de Dragon Ball Z, donde los usuarios puedan interactuar, comerciar con activos digitales basados en criptomonedas, participar en juegos o competiciones, y muchísimas actividades más.</p>
+            <p>Uno de los eventos más esperados por la comunidad TORIYAMA sería el aniversario de Akira Toriyama, que se celebra cada 1 de Marzo, con una quema de tokens en su honor, donde toda la comunidad puede participar.</p>
+        </div>
+    </section>
+    <section id="features">
+        <div class="container">
+            <h2>Características Clave</h2>
+            <ul>
+                <li>Basada en la tecnología blockchain</li>
+                <li>Segura y transparente</li>
+                <li>Comunidad activa de fans de Dragon Ball Z</li>
+                <li>Rápida y escalable</li>
+            </ul>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <h2>Nuestro Equipo</h2>
+            <p>Formado por expertos en criptografía y apasionados por Dragon Ball Z. Estamos comprometidos con la misión de llevar TORIYAMA al éxito y hacer realidad el potencial del universo digital que rendirá homenaje por siempre a la figura de Akira. ¡Envíanos tu propuesta! <a href="mailto:toriyamaDBZ@hotmail.com">¡Contáctanos!</a></p>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TORIYAMA (DBZ) - La Criptomoneda Definitiva</p>
+        </div>
+    </footer>
+</body>
+</html>
